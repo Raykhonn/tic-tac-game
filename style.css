@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', monospace;
+    text-align: center;
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer; 
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+.next{
+    font-size: 30px;
+    position: absolute;
+}
+li{
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+li button{
+    position: absolute;
+    width: 200px;
+    left: -1px;
+}
